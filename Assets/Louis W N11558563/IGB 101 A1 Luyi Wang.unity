@@ -268,6 +268,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 781647011}
     - target: {fileID: 1193194435495657132, guid: 4cef0926927956b41b087ef87d63b548, type: 3}
+      propertyPath: maxPickups
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1193194435495657132, guid: 4cef0926927956b41b087ef87d63b548, type: 3}
       propertyPath: pickupText
       value: 
       objectReference: {fileID: 1270738641}
@@ -4667,6 +4671,7 @@ GameObject:
   - component: {fileID: 1161554133}
   - component: {fileID: 1161554132}
   - component: {fileID: 1161554136}
+  - component: {fileID: 1161554137}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -4775,6 +4780,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c81d5935ae178fa47b7f21eaf25d5b01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1161554137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161554131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6964d2b9fd49a87469ed3cfb5aeffea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextLevel: IGB101 Assignment 2 Toby de Wit
 --- !u!114 &1270738641 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7977893451743806778, guid: 5cbb490914a44c94d80b64cd9f013098, type: 3}
