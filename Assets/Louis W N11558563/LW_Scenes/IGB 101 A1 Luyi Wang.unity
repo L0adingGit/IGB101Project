@@ -274,7 +274,7 @@ PrefabInstance:
     - target: {fileID: 1193194435495657132, guid: 4cef0926927956b41b087ef87d63b548, type: 3}
       propertyPath: pickupText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 408761586}
     - target: {fileID: 2817973806965308377, guid: 4cef0926927956b41b087ef87d63b548, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.569772
@@ -742,6 +742,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2019054563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &408761586 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5656344079430215439, guid: 030cf82ddbb794b1b9728458d95dfdf5, type: 3}
+  m_PrefabInstance: {fileID: 2023420299}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &523299294
 GameObject:
   m_ObjectHideFlags: 0
