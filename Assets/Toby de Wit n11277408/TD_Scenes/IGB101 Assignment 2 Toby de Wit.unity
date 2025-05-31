@@ -1582,11 +1582,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4557e3a03a623024b9ddf7c564f90c7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 764448095}
   audioSources: []
   audioProximity: 5
   currentPickups: 0
-  maxPickups: 4
+  maxPickups: 1
   levelComplete: 0
   pickupText: {fileID: 2096233622}
 --- !u!4 &698500890
@@ -3304,6 +3304,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9b148a2950aaf4cba8422632222c5d, type: 3}
+--- !u!1 &764448095 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4425428723088313499, guid: fc9b148a2950aaf4cba8422632222c5d, type: 3}
+  m_PrefabInstance: {fileID: 764448094}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &872329683
 Mesh:
   m_ObjectHideFlags: 0
@@ -5047,7 +5052,7 @@ Transform:
   m_GameObject: {fileID: 1783277589}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.3, y: 3.32, z: -52.45}
+  m_LocalPosition: {x: 61.56, y: 3.32, z: -4.53}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -7013,6 +7013,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9b148a2950aaf4cba8422632222c5d, type: 3}
+--- !u!1 &552049440 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4425428723088313499, guid: fc9b148a2950aaf4cba8422632222c5d, type: 3}
+  m_PrefabInstance: {fileID: 552049439}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &563779249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23162,7 +23167,7 @@ PrefabInstance:
     - target: {fileID: 1193194435495657132, guid: 4cef0926927956b41b087ef87d63b548, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 552049440}
     - target: {fileID: 1193194435495657132, guid: 4cef0926927956b41b087ef87d63b548, type: 3}
       propertyPath: pickupText
       value: 
