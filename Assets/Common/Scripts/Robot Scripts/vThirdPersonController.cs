@@ -124,5 +124,15 @@ namespace Invector.vCharacterController
             else
                 animator.CrossFadeInFixedTime("JumpMove", .2f);
         }
+        public void ResetMovementState()
+        {
+            input = Vector3.zero;
+            inputSmooth = Vector3.zero;
+            moveDirection = Vector3.zero;
+            isSprinting = false;
+            isJumping = false;
+            horizontalSpeed = 0f;
+            verticalSpeed = 0f;
+        }
     }
 }
